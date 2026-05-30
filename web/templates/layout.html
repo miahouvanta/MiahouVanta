@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{.Title}} — CyberDeck</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>">
+</head>
+<body>
+  <div class="sidebar">
+    <div class="sidebar-header">
+      <h1>CYBERDECK</h1>
+      <span>Miahou // v1.0</span>
+    </div>
+    <nav>
+      <a class="nav-item{{if eq .Active "attack-map"}} active{{end}}" href="/attack-map"><span class="icon">🗺️</span> Attack Map</a>
+      <a class="nav-item{{if eq .Active "c2"}} active{{end}}" href="/c2"><span class="icon">⚔️</span> C2 Server</a>
+      <a class="nav-item{{if eq .Active "vuln-dashboard"}} active{{end}}" href="/vuln-dashboard"><span class="icon">🛡️</span> Vuln Dashboard</a>
+      <a class="nav-item{{if eq .Active "log-analyzer"}} active{{end}}" href="/log-analyzer"><span class="icon">📊</span> Log Analyzer</a>
+      <a class="nav-item{{if eq .Active "cameras"}} active{{end}}" href="/cameras"><span class="icon">📹</span> Cameras</a>
+      <a class="nav-item{{if eq .Active "chat"}} active{{end}}" href="/chat"><span class="icon">💬</span> Chat</a>
+    </nav>
+    <div class="sidebar-footer"><span class="status-dot"></span> System Online</div>
+  </div>
+  <div class="main">
+    <div class="topbar">
+      <h2 id="page-title">{{.Title}}</h2>
+      <div class="topbar-right"><span id="clock"></span></div>
+    </div>
+    <div class="content" id="content">
+      {{template "content" .}}
+    </div>
+  </div>
+  <script src="/static/js/app.js"></script>
+  {{template "scripts" .}}
+</body>
+</html>

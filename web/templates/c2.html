@@ -1,0 +1,6 @@
+{{define "content"}}
+<div class="page-header"><h3>C2 Server</h3><p>Command &amp; control panel</p></div>
+<div class="c2-controls"><div class="control-group"><label>Bind IP</label><input type="text" id="c2-bind-ip" value="0.0.0.0" /></div><div class="control-group"><label>Port</label><input type="number" id="c2-port" value="9090" /></div><div class="control-group"><button class="btn btn-primary" id="c2-start-btn">Start</button><button class="btn btn-danger" id="c2-stop-btn">Stop</button></div><div class="c2-status" id="c2-status">Stopped</div></div>
+<div class="c2-layout"><div class="panel"><h4>Clients</h4><div id="c2-clients" class="client-list"></div></div><div class="panel"><h4>Console</h4><div id="c2-console" class="console"></div></div></div>
+{{end}}
+{{define "scripts"}}<script src="/static/js/c2.js"></script>{{end}}

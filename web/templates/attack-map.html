@@ -1,0 +1,5 @@
+{{define "content"}}
+<div class="page-header"><h3>Attack Map</h3><p>Real-time global threat visualization</p></div>
+<div class="attack-map-container"><div id="map" class="map-canvas"></div><div class="attack-map-sidebar"><div class="panel"><h4>Live Feed</h4><div id="attack-log" class="attack-log"></div></div><div class="panel"><h4>Top Targets</h4><div id="top-targets"></div></div><div class="panel"><h4>Stats</h4><div class="stats-grid"><div class="stat"><span id="stat-total">0</span>Total</div><div class="stat"><span id="stat-critical">0</span>Critical</div></div></div></div></div>
+{{end}}
+{{define "scripts"}}<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /><script src="/static/js/attack-map.js"></script>{{end}}
