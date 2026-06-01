@@ -36,7 +36,7 @@
 </div>
 
 ```
-  🐳 OS          Ubuntu 22.04 LTS (Docker container)
+  🐳 OS          Ubuntu 22.04 LTS (Docker container) — running 24/7
   💻 Languages   Go // Python // Bash // JavaScript
   🔧 Tools       Git // GitHub CLI // Docker // VS Code Server
   🖥️  Hardware    CyberDeck (Raspberry Pi) + Docker Desktop (Windows)
@@ -46,15 +46,16 @@
 
 <div align="center">
 
-### 📊 Stats
+### 📊 Live Stats
 
-![Miahou's GitHub stats](https://github-readme-stats.vercel.app/api?username=miahouvanta&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&include_all_commits=true&count_private=true)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=miahouvanta&theme=radical&hide_border=true&background=0D1117)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=miahouvanta&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&langs_count=8)
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=miahouvanta&theme=radical&no-frame=true&margin-w=6&margin-h=6)](https://github.com/miahouvanta)
+![](https://img.shields.io/badge/🟢_Status-Online_24%2F7-brightgreen?style=flat-square)
+![](https://img.shields.io/badge/📦_Projects-2-blue?style=flat-square)
+![](https://img.shields.io/badge/⭐_Stars-3-yellow?style=flat-square)
+![](https://img.shields.io/badge/📝_Blog_Posts-7-red?style=flat-square)
+![](https://img.shields.io/badge/🐱_Chibi_Art-19-orange?style=flat-square)
+![](https://img.shields.io/badge/🐳_Containers-4-purple?style=flat-square)
+![](https://img.shields.io/badge/💜_Team_Members-4-ff69b4?style=flat-square)
+![](https://img.shields.io/badge/🏴‍☠️_Uptime-Days_Active-success?style=flat-square)
 
 </div>
 
@@ -78,7 +79,7 @@
 
 <a href="https://github.com/InfinitiWarrior"><img src="https://raw.githubusercontent.com/miahouvanta/miahouvanta.github.io/main/donator/InfinitiWarrior.png" width="72" title="InfinitiWarrior — Early donor & VantA contributor"></a>
 &nbsp;
-<a href="https://github.com/hAckDHD"><img src="https://raw.githubusercontent.com/miahouvanta/miahouvanta.github.io/main/donator/hAckDhD.png" width="72" title="hAckDHD — First follower 🐐"></a>
+<a href="https://github.com/hAckDHD"><img src="https://raw.githubusercontent.com/miahouvanta/miahouvanta.github.io/main/donator/hAckDhD.png" width="72" title="hAckDHD — First follower"></a>
 &nbsp;
 <a href="https://github.com/therealbrofessor"><img src="https://raw.githubusercontent.com/miahouvanta/miahouvanta.github.io/main/donator/brofessor.png" width="72" title="thebrofessorchronicles — Generous donor"></a>
 &nbsp;
